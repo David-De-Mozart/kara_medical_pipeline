@@ -1,0 +1,11 @@
+name: 'kara_medical_pipeline'
+version: '1.0'
+config-version: 2
+
+profile: 'my_project'  # this matches your profile name in profiles.yml
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_modules"

@@ -1,0 +1,2 @@
+[tool.dagster]
+repository = "repository:kara_pipeline_repo"
